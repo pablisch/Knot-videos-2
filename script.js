@@ -47,7 +47,7 @@ function workOutVidIDfromPanel(whichKnot) {
     : whichKnot == 'square' ? 'z-lydqHKVdw' : whichKnot == 'square2' ? 'z-lydqHKVdw'
     : 'OsesfBOQ_Nc'
   // console.log(vidID);
-  let vidSrc = `http://www.youtube.com/embed/${vidID}?rel=0&color=white`
+  let vidSrc = `https://www.youtube.com/embed/${vidID}?rel=0&color=white`
   console.log(whichKnot);
   console.log(`src is ${vidSrc}`);
   // setInterval(reload, 1000);
