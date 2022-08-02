@@ -205,8 +205,8 @@ section {
 
 #videoSection {
   background-color: var(--navbar);
-  background-image: url('images/ropeBackground3.jpeg');
-  background-size: cover;
+  /* background-image: url('images/ropeBackground3.jpeg'); */
+  /* background-size: cover; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
