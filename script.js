@@ -67,7 +67,7 @@ function workOutvidIDfromLink(whichLink) {
     : whichLink == 'SquareLashing' ? 'z-lydqHKVdw'
     : 'OsesfBOQ_Nc'
   console.log(vidID);
-  let vidSrc = `http://www.youtube.com/embed/${vidID}?rel=0&color=white`
+  let vidSrc = `https://www.youtube.com/embed/${vidID}?rel=0&color=white`
   console.log(`src is ${vidSrc}`);
   whichVideo(vidSrc);
 }
